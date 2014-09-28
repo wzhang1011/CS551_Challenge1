@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCEEFF"
+    android:layout_marginLeft="10dp"> 
+        <!-- Store or provider -->
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- provider Label -->
+        <TextView
+            android:id="@+id/provider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac" 
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+		<!-- title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip"
+             />
+        <!-- desciption -->
+		<TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<!-- Link -->
+		<TextView
+            android:id="@+id/link"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+  		<TextView
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="1sp" />
+		<TextView
+            android:id="@+id/Oprice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Expiration date: " >
+        </TextView>
+        <!-- expiration Label -->
+        <TextView
+            android:id="@+id/expiration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac" 
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Sale price: " >
+        </TextView>
+        <!-- price Label -->
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac" 
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+
+
+</LinearLayout>

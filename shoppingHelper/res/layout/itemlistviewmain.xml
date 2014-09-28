@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCEEFF"
+    android:layout_marginLeft="10dp"> 
+		<!-- item name -->
+        <TextView
+            android:id="@+id/itemN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip" />
+        <!-- desciption -->
+		<TextView
+            android:id="@+id/idescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<!-- Link -->
+		<TextView
+            android:id="@+id/url"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+  		<TextView
+            android:id="@+id/upc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Sale Price: " >
+        </TextView>
+        <!-- price Label -->
+        <TextView
+            android:id="@+id/sPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000" 
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#CCEEFF"
+  >
+  <!-- provider Label -->
+  <TextView android:id="@+id/provider_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"
+            />
+  <!-- title Label -->
+  <TextView android:id="@+id/title_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+  <!-- Description Label -->
+  <TextView android:id="@+id/description_label"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dip"
+            android:layout_marginLeft="10dp"/>
+  <!-- expiration Label -->
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="15dip"
+            android:text="Expiration date: " >
+        </TextView>
+        <TextView
+            android:id="@+id/expiration_Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="15dip">
+        </TextView>
+        </LinearLayout>
+<!-- oringinal price Label -->
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="original price:" 
+            android:textSize="15dip" >
+        </TextView>
+  <TextView android:id="@+id/op"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="8dip"
+            android:paddingBottom="10dip"/></LinearLayout>
+   <!-- sale price Label -->
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="sale price: "
+            android:textSize="15dip" >
+        </TextView>
+  <TextView android:id="@+id/sp_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"/></LinearLayout>
+  <!-- address Label -->
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Address: "
+            android:textSize="15dip" >
+        </TextView>
+  <TextView android:id="@+id/address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"/></LinearLayout>
+  <!-- Link Label -->
+  <TextView
+      android:id="@+id/location_label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      android:autoLink="web"
+      android:gravity="left"
+      android:text="map:"
+      android:textSize="15dp"
+      android:textStyle="bold" 
+      android:paddingBottom="10dip"
+      android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

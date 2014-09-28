@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCEEFF"> 
+		<!-- recipe name -->
+        <TextView
+            android:id="@+id/recipeN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip" />
+        <!-- ingredients -->
+		<TextView
+            android:id="@+id/ingredients"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<!-- attributes -->
+		<TextView
+            android:id="@+id/attributes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+		<TextView
+            android:id="@+id/flavors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#dc6800"
+            android:textSize="0sp" />
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5d5d5d"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Rating: " >
+        </TextView>
+        <!-- Rating Label -->
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac" 
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+
+</LinearLayout>

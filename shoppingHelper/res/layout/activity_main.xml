@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#CCEEFF" >
+    
+    
+     
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Shopping Helper" 
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textColor="#00BBFF"
+        android:layout_marginBottom="15dp"
+        />
+    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Daily Deals"
+        
+        
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:hint="enter your zip code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="10"
+         
+       
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:hint="enter the item UPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_toLeftOf="@+id/button1"
+        android:ems="10"
+         
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button1"
+        android:layout_marginBottom="44dp"
+        android:text="check nutrition"
+         
+        
+        />
+    
+    
+     
+     
+    
+
+    <EditText
+        android:id="@+id/editText3"
+        android:hint="enter the food to find recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_marginBottom="40dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:ems="10"
+         />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignLeft="@+id/button1"
+        android:text="find my recipes" 
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:hint="enter the item name to check detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_marginBottom="44dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:ems="10" 
+        
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignLeft="@+id/button3"
+        android:text="Check Detail" 
+        />
+    
+
+</RelativeLayout>

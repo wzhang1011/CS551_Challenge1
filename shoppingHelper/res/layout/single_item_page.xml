@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#CCEEFF">
+  <!-- item name Label -->
+  <TextView android:id="@+id/itemname_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:layout_marginLeft="10dp"/>
+  <!-- Description Label -->
+  <TextView android:id="@+id/itemdescription_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dip"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dip"/>
+  <!-- upc Label -->
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="UPC: " >
+        </TextView>
+        <TextView
+            android:id="@+id/UPC_Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left">
+        </TextView>
+        </LinearLayout>
+   <!-- sale price Label -->
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="sale price: " >
+        </TextView>
+  <TextView android:id="@+id/salep_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"/></LinearLayout>
+     <!-- Link Label -->
+  <TextView
+      android:id="@+id/url_label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:clickable="true"
+      android:autoLink="web"
+      android:gravity="left"
+      android:textSize="15dp"
+      android:textStyle="bold" 
+      android:paddingBottom="10dip"
+      android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
